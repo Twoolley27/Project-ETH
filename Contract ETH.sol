@@ -187,7 +187,7 @@ contract Eversify is Context, IERC20, Ownable {
         inSwap = false;
     }
 
-    // This function is called only onces when the contract is deployed,
+    // This function is called only once when the contract is deployed,
     // It takes one input parameter which is the address for the wallet which
     // will receive the taxFees
     constructor(address payable taxAddress) {
